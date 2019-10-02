@@ -1,5 +1,7 @@
 # Go rate limiter for HTTP requests based on IP address
 
+[![Go Report Card](https://goreportcard.com/badge/github.com/geekfarmer/ipratelimit)](https://goreportcard.com/report/github.com/geekfarmer/ipratelimit)
+
 This package provides a simple and easy to implement middleware for HTTP requests to rate limit the requests for each ip-address
 
 ```go
