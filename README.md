@@ -1,13 +1,13 @@
 # Rate limiter for HTTP requests based on IP address for go
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/geekfarmer/ipratelimit)](https://goreportcard.com/report/github.com/geekfarmer/ipratelimit)
+[![Go Report Card](https://goreportcard.com/badge/github.com/geekfarmer/go-ipratelimit)](https://goreportcard.com/report/github.com/geekfarmer/go-ipratelimit)
 [![GoDoc](https://godoc.org/github.com/Rhymond/go-money?status.svg)](https://godoc.org/github.com/geekfarmer/go-ipratelimit)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This package provides a simple and easy to implement middleware for HTTP requests to rate limit the requests for each ip-address
 
 ```go
-imports "github.com/geekfarmer/ipratelimit"
+imports "github.com/geekfarmer/go-ipratelimit"
 ```
 
 Create a ip address rate limiter with a maximum number of requests can be process per second and with a bucket size.
@@ -24,7 +24,7 @@ import (
 	"log"
   "net/http"
 
-  "github.com/geekfarmer/ipratelimit"
+  "github.com/geekfarmer/go-ipratelimit"
 )
 
 // ipratelimit.New(r, b)
