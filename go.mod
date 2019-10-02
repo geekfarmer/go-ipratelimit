@@ -1,4 +1,4 @@
-module github.com/geekfarmer/ipratelimit
+module github.com/geekfarmer/go-ipratelimit
 
 go 1.12
 

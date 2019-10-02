@@ -1,6 +1,8 @@
-# Go rate limiter for HTTP requests based on IP address
+# Rate limiter for HTTP requests based on IP address for go
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/geekfarmer/ipratelimit)](https://goreportcard.com/report/github.com/geekfarmer/ipratelimit)
+[![GoDoc](https://godoc.org/github.com/Rhymond/go-money?status.svg)](https://godoc.org/github.com/geekfarmer/go-ipratelimit)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This package provides a simple and easy to implement middleware for HTTP requests to rate limit the requests for each ip-address
 
@@ -69,3 +71,10 @@ we need to create a simple config file ( /example/request.config ) which have co
 vegeta attack -duration=10s -rate=100 -targets=/PATH_TO/request.conf | vegeta report
 ```
 
+License
+-
+The MIT License (MIT). Please see License File for more information.
+
+
+
+[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/geekfarmer/go-ipratelimit)

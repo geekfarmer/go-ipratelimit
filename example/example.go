@@ -4,7 +4,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/geekfarmer/ipratelimit"
+	"github.com/geekfarmer/go-ipratelimit"
 )
 
 var limiter = ipratelimit.New(1, 5)
